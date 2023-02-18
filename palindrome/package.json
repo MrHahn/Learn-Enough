@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Palindrome detector",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "mocha"
   },
@@ -11,11 +14,11 @@
     "url": "git+https://github.com/MrHahn/learn-enough.git"
   },
   "keywords": [
-    "palindrome",
-    "learn-enough",
+    "Palindrome",
+    "Learn-enough",
     "javascript"
   ],
-  "author": "Christopher Hahn",
+  "author": "Chris Hahn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MrHahn/learn-enough/issues"
