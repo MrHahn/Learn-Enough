@@ -17,12 +17,12 @@ function Phrase(content){
 
 	// Returns content processed for palindrome testing.
 	this.processedContent = function processedContent(){
-		return this.processor(this.content);
+		return this.processor(this.letters());
 	}
 
 	// Returns the letters in the content.
-	this.letters = function(){
-		return this.content;
+	this.letters = function letters(){
+		return Array.from(this.content).filter(c => c.match(/[a-z]/i)).join("");
 	}
 
 	// Returns true for a palindrome, false otherwise.
